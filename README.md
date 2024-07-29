@@ -22,6 +22,7 @@ This is repository for implementing AWS services via Spring Boot application.
     # Publish-Subscribe Messaging 
     # Queue configuration 
     # Visibility timeout of messages
+    # Poll messages
 
 
 # API Endpoints :- 
@@ -37,13 +38,14 @@ This is repository for implementing AWS services via Spring Boot application.
      
     1. AWS Account
     2. AWS Access Key and Secret Key
-    3. AWS SNS Service knowlegde
+    3. AWS SQS Service knowlegde
+    4. Provide region, Queue name
 
 # Steps to run the application :-
     
     1. Clone the repository.
     2. Open the project in IDE
-    3. Add AWS SNS dependency in gradle file.
+    3. Add AWS SQS dependency in gradle file.
     4. Add AWS Access Key , Secret Key and region in application.yml file.
     5. Run the project.
   
